@@ -4,6 +4,27 @@ offline-storage
 This is used to add offline storage operations (localStroage/sessionStorage) to your project.
 using offline-storage.js add/delete/clear operations for objects could be added to your project.
 
+## Usage:
+* #####localStorage operations:
+
+    * saveInLocalStorage(key, obj): save object with specific key in localStorage
+
+    * getFromLocalStorage(key): retrieve object with specific key from localStorage
+
+    * removeFromLocalStorage(key): remove object with specific key from localStorage
+
+    * clearLocalStorage(): remove all objects saved in localStorage
+
+* #####sessionStorage operations:
+
+    * saveInSessionStorage(key, obj): save object with specific key in sessionStorage
+
+    * getFromSessionStorage(key): retrieve object with specific key from sessionStorage
+
+    * removeFromSessionStorage(key): remove object with specific key from sessionStorage
+
+    * clearSessionStorage(): remove all objects saved in sessionStorage
+
 
 ## MIT Licence
 
