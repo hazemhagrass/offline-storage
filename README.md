@@ -2,7 +2,7 @@ offline-storage
 ======================================================
 
 This is used to add offline storage operations (localStroage/sessionStorage) to your project.
-using offline-storage.js add/delete/clear operations for objects could be added to your project.
+using offline-storage.js add/delete/clear operations for not only strings but also objects could be added to your project.
 
 ## Usage:
 * #####localStorage operations:
